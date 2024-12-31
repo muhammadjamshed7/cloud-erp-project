@@ -35,7 +35,7 @@ const MegaMenu = ({ subMenus }: MegaMenuProps) => {
           show: dropdownOpen,
         })}
       >
-        Mega Menu <i className="mdi mdi-chevron-down"></i>
+        {/* Mega Menu <i className="mdi mdi-chevron-down"></i> */}
       </Dropdown.Toggle>
       <Dropdown.Menu className="dropdown-menu dropdown-megamenu">
         <div onClick={toggleDropdown}>
@@ -60,7 +60,7 @@ const MegaMenu = ({ subMenus }: MegaMenuProps) => {
                 })}
               </Row>
             </Col>
-            <Col sm={4}>
+            {/* <Col sm={4}>
               <div className="text-center mt-3">
                 <h3 className="text-dark">Special Discount Sale!</h3>
                 <h4>Save up to 70% off.</h4>
@@ -68,7 +68,7 @@ const MegaMenu = ({ subMenus }: MegaMenuProps) => {
                   Download Now
                 </button>
               </div>
-            </Col>
+            </Col> */}
           </Row>
         </div>
       </Dropdown.Menu>

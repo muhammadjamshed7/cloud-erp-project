@@ -28,7 +28,7 @@ export interface ProjectsList {
 const projects: ProjectsList[] = [
   {
     id: 1,
-    title: "New Admin Design",
+    title: "Zameen property",
     companyName: "Orange Limited",
     state: "Finished",
     shortDesc:
@@ -62,7 +62,7 @@ const projects: ProjectsList[] = [
   },
   {
     id: 2,
-    title: "App Design and Development",
+    title: "Zameen propertyt",
     companyName: "Moondust Softwares",
     state: "Ongoing",
     shortDesc:
@@ -88,7 +88,7 @@ const projects: ProjectsList[] = [
   },
   {
     id: 3,
-    title: "Landing page Design",
+    title: "Zameen property",
     companyName: "Rose Technologies",
     state: "Finished",
     shortDesc:
@@ -118,7 +118,7 @@ const projects: ProjectsList[] = [
   },
   {
     id: 4,
-    title: "Custom Software Development",
+    title: "Constructions",
     companyName: "Apple Navigations",
     state: "Ongoing",
     shortDesc:
@@ -144,7 +144,7 @@ const projects: ProjectsList[] = [
   },
   {
     id: 5,
-    title: "Website Redesign",
+    title: "Constructions",
     companyName: "Enigma Navigations",
     state: "Ongoing",
     shortDesc:
@@ -174,7 +174,7 @@ const projects: ProjectsList[] = [
   },
   {
     id: 6,
-    title: "Multipurpose Landing Template",
+    title: "Constructions",
     companyName: "Pride Softwares",
     state: "Finished",
     shortDesc:

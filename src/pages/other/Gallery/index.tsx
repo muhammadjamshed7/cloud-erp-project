@@ -71,7 +71,7 @@ const Gallery = () => {
           { label: 'Extra Pages', path: '/pages/gallery' },
           { label: 'Gallery', path: '/pages/gallery', active: true },
         ]}
-        title={'Gallery'}
+        title={'Property Details'}
       />
 
       <Row>
@@ -84,7 +84,7 @@ const Gallery = () => {
               })}
               onClick={() => filterImages('all')}
             >
-              All
+              {/* All */}
             </Link>
             <Link
               to="#"
@@ -93,7 +93,7 @@ const Gallery = () => {
               })}
               onClick={() => filterImages('web')}
             >
-              Web Design
+              {/* Web Design */}
             </Link>
             <Link
               to="#"
@@ -102,7 +102,7 @@ const Gallery = () => {
               })}
               onClick={() => filterImages('graphic')}
             >
-              Graphic Design
+              {/* Graphic Design */}
             </Link>
             <Link
               to="#"
@@ -111,7 +111,7 @@ const Gallery = () => {
               })}
               onClick={() => filterImages('illustrator')}
             >
-              Illustrator
+              {/* Illustrator */}
             </Link>
             <Link
               to="#"
@@ -120,7 +120,7 @@ const Gallery = () => {
               })}
               onClick={() => filterImages('photography')}
             >
-              Photography
+              {/* Photography */}
             </Link>
           </div>
         </Col>

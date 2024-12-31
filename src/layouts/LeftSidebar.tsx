@@ -174,7 +174,7 @@ const LeftSidebar = ({ isCondensed, hideLogo }: LeftSidebarProps) => {
                 <img src={logoSm} alt="" height="22" />
               </span>
               <span className="logo-lg">
-                <img
+                {/* <img
                   src={
                     layoutType === LayoutTypes.LAYOUT_TWO_COLUMN
                       ? logoLight2
@@ -182,7 +182,7 @@ const LeftSidebar = ({ isCondensed, hideLogo }: LeftSidebarProps) => {
                   }
                   alt=""
                   height="20"
-                />
+                /> */}
               </span>
             </Link>
           </div>

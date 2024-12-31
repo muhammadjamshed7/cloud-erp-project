@@ -44,7 +44,7 @@ const LeftSide = () => {
         </Dropdown>
       </ButtonGroup>
 
-      <div className="mail-list mt-3">
+      {/* <div className="mail-list mt-3">
         <Link to="#" className="list-group-item border-0">
           <i className="mdi mdi-folder-outline font-18 align-middle me-2"></i>My
           Files
@@ -72,9 +72,9 @@ const LeftSide = () => {
           <i className="mdi mdi-delete font-18 align-middle me-2"></i>Deleted
           Files
         </Link>
-      </div>
+      </div> */}
 
-      <div className="mt-5">
+      {/* <div className="mt-5">
         <h4>
           <span className="badge rounded-pill p-1 px-2 badge-soft-secondary">
             FREE
@@ -83,7 +83,7 @@ const LeftSide = () => {
         <h6 className="text-uppercase mt-3">Storage</h6>
         <ProgressBar variant="success" now={46} className="my-2 progress-sm" />
         <p className="text-muted font-12 mb-0">7.02 GB (46%) of 15 GB used</p>
-      </div>
+      </div> */}
     </>
   );
 };

@@ -63,35 +63,36 @@ const AppsDropdown = () => {
   };
 
   return (
-    <Dropdown show={dropdownOpen} onToggle={toggleDropdown}>
-      <Dropdown.Toggle
-        id="dropdown-apps"
-        as="a"
-        onClick={toggleDropdown}
-        className={classNames("nav-link waves-effect waves-light", {
-          show: dropdownOpen,
-        })}
-      >
-        <i className="fe-grid noti-icon font-22"></i>
-      </Dropdown.Toggle>
+    <></>
+    // <Dropdown show={dropdownOpen} onToggle={toggleDropdown}>
+    //   <Dropdown.Toggle
+    //     id="dropdown-apps"
+    //     as="a"
+    //     onClick={toggleDropdown}
+    //     className={classNames("nav-link waves-effect waves-light", {
+    //       show: dropdownOpen,
+    //     })}
+    //   >
+    //     <i className="fe-grid noti-icon font-22"></i>
+    //   </Dropdown.Toggle>
 
-      <Dropdown.Menu className="dropdown-menu-end dropdown-menu-animated dropdown-lg p-0">
-        <div className="p-2">
-          {(appsChunks || []).map((chunk, idx) => (
-            <div className="row g-0" key={idx}>
-              {(chunk || []).map((item, i) => (
-                <div className="col" key={i}>
-                  <Link className="dropdown-icon-item" to={item.redirectTo}>
-                    <img src={item.icon} alt="" />
-                    <span>{item.name}</span>
-                  </Link>
-                </div>
-              ))}
-            </div>
-          ))}
-        </div>
-      </Dropdown.Menu>
-    </Dropdown>
+    //   <Dropdown.Menu className="dropdown-menu-end dropdown-menu-animated dropdown-lg p-0">
+    //     <div className="p-2">
+    //       {(appsChunks || []).map((chunk, idx) => (
+    //         <div className="row g-0" key={idx}>
+    //           {(chunk || []).map((item, i) => (
+    //             <div className="col" key={i}>
+    //               <Link className="dropdown-icon-item" to={item.redirectTo}>
+    //                 <img src={item.icon} alt="" />
+    //                 <span>{item.name}</span>
+    //               </Link>
+    //             </div>
+    //           ))}
+    //         </div>
+    //       ))}
+    //     </div>
+    //   </Dropdown.Menu>
+    // </Dropdown>
   );
 };
 

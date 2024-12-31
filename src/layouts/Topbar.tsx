@@ -311,10 +311,10 @@ const Topbar = ({
               <div className="logo-box">
                 <Link to="/" className="logo logo-dark text-center">
                   <span className="logo-sm">
-                    <img src={logoSm} alt="" height="22" />
+                    {/* <img src={logoSm} alt="" height="22" /> */}
                   </span>
                   <span className="logo-lg">
-                    <img
+                    {/* <img
                       src={
                         layoutType === LayoutTypes.LAYOUT_TWO_COLUMN
                           ? logoDark2
@@ -322,15 +322,15 @@ const Topbar = ({
                       }
                       alt=""
                       height="20"
-                    />
+                    /> */}
                   </span>
                 </Link>
                 <Link to="/" className="logo logo-light text-center">
                   <span className="logo-sm">
-                    <img src={logoSm} alt="" height="22" />
+                    {/* <img src={logoSm} alt="" height="22" /> */}
                   </span>
                   <span className="logo-lg">
-                    <img
+                    {/* <img
                       src={
                         layoutType === LayoutTypes.LAYOUT_TWO_COLUMN
                           ? logoLight2
@@ -338,7 +338,7 @@ const Topbar = ({
                       }
                       alt=""
                       height="20"
-                    />
+                    /> */}
                   </span>
                 </Link>
               </div>
@@ -383,7 +383,7 @@ const Topbar = ({
               <ProfileDropdown
                 profilePic={profilePic}
                 menuItems={ProfileMenus}
-                username={"Geneva"}
+                username={"John"}
                 userTitle={"Founder"}
               />
             </li>

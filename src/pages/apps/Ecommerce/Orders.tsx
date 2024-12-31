@@ -25,13 +25,13 @@ const OrderColumn = ({ row }: { row: any }) => {
 const ProductsColumn = ({ row }: { row: any }) => {
   return (
     <>
-      {(row.original.product_img || []).map((img: string, index: number) => {
+      {/* {(row.original.product_img || []).map((img: string, index: number) => {
         return (
           <Link to="/apps/ecommerce/product-details" key={index}>
             <img src={img} alt="" height="32" />
           </Link>
         );
-      })}
+      })} */}
     </>
   );
 };

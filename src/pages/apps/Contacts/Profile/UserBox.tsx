@@ -19,7 +19,7 @@ const UserBox = () => {
           type="button"
           className="btn btn-success btn-xs waves-effect mb-2 waves-light"
         >
-          Follow
+          Subscription Details
         </button>{" "}
         <button
           type="button"

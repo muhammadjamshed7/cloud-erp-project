@@ -46,13 +46,13 @@ const AuthLayout = ({
                     <div className="auth-brand">
                       <Link to="/" className="logo logo-dark text-center">
                         <span className="logo-lg">
-                          <img src={LogoDark} alt="" height="22" />
+                          {/* <img src={LogoDark} alt="" height="22" /> */}
                         </span>
                       </Link>
 
                       <Link to="/" className="logo logo-light text-center">
                         <span className="logo-lg">
-                          <img src={LogoLight} alt="" height="22" />
+                          {/* <img src={LogoLight} alt="" height="22" /> */}
                         </span>
                       </Link>
                     </div>
@@ -69,12 +69,7 @@ const AuthLayout = ({
         </Container>
       </div>
 
-      <footer className="footer footer-alt">
-        2015 - {new Date().getFullYear()} &copy; UBold theme by{" "}
-        <Link to="#" className="text-white-50">
-          Coderthemes
-        </Link>
-      </footer>
+     
     </>
   );
 };

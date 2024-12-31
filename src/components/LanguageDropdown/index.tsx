@@ -45,39 +45,40 @@ const LanguageDropdown = () => {
   };
 
   return (
-    <Dropdown show={dropdownOpen} onToggle={toggleDropdown}>
-      <Dropdown.Toggle
-        id="dropdown-languages"
-        as="a"
-        onClick={toggleDropdown}
-        className={classNames("nav-link waves-effect waves-light", {
-          show: dropdownOpen,
-        })}
-      >
-        <img src={enLang.flag} alt={enLang.name} height="16" />
-      </Dropdown.Toggle>
-      <Dropdown.Menu className="dropdown-menu dropdown-menu-end">
-        <div onClick={toggleDropdown}>
-          {(Languages || []).map((lang, i) => {
-            return (
-              <Link
-                to="#"
-                className="dropdown-item notify-item"
-                key={i + "-lang"}
-              >
-                <img
-                  src={lang.flag}
-                  alt={lang.name}
-                  className="me-1"
-                  height="12"
-                />{" "}
-                <span className="align-middle">{lang.name}</span>
-              </Link>
-            );
-          })}
-        </div>
-      </Dropdown.Menu>
-    </Dropdown>
+    // <Dropdown show={dropdownOpen} onToggle={toggleDropdown}>
+    //   <Dropdown.Toggle
+    //     id="dropdown-languages"
+    //     as="a"
+    //     onClick={toggleDropdown}
+    //     className={classNames("nav-link waves-effect waves-light", {
+    //       show: dropdownOpen,
+    //     })}
+    //   >
+    //     <img src={enLang.flag} alt={enLang.name} height="16" />
+    //   </Dropdown.Toggle>
+    //   <Dropdown.Menu className="dropdown-menu dropdown-menu-end">
+    //     <div onClick={toggleDropdown}>
+    //       {(Languages || []).map((lang, i) => {
+    //         return (
+    //           <Link
+    //             to="#"
+    //             className="dropdown-item notify-item"
+    //             key={i + "-lang"}
+    //           >
+    //             <img
+    //               src={lang.flag}
+    //               alt={lang.name}
+    //               className="me-1"
+    //               height="12"
+    //             />{" "}
+    //             <span className="align-middle">{lang.name}</span>
+    //           </Link>
+    //         );
+    //       })}
+    //     </div>
+    //   </Dropdown.Menu>
+    // </Dropdown>
+    <></>
   );
 };
 

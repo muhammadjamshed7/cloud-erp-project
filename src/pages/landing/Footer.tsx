@@ -20,12 +20,12 @@ const Footer = () => {
                 <p className="text-muted">
                   A Responsive Bootstrap 5 Web App Kit
                 </p>
-                <p className="text-muted mb-4 mb-lg-0">
+                {/* <p className="text-muted mb-4 mb-lg-0">
                   Ubold is a fully featured premium admin template built on top
                   of awesome Bootstrap 5, modern web technology HTML5, CSS3 and
                   JavaScript library (React). It has many ready to use hand
                   crafted components.
-                </p>
+                </p> */}
               </div>
             </Col>
             <Col lg={2} md={6}>

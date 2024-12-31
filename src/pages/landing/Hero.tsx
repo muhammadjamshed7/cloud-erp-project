@@ -12,15 +12,15 @@ const Hero = () => {
             <Row className="align-items-center">
               <Col lg={6}>
                 <div className="home-title mo-mb-20">
-                  <h1 className="mb-4 text-white">
-                    Ubold is a fully featured premium admin template
-                  </h1>
-                  <p className="text-white-50 home-desc mb-5">
+                  {/* <h1 className="mb-4 text-white">
+                     is a fully featured premium admin template
+                  </h1> */}
+                  {/* <p className="text-white-50 home-desc mb-5">
                     Ubold is a fully featured premium admin template built on
                     top of awesome Bootstrap 5, modern web technology HTML5,
                     CSS3 and JavaScript library (React). It has many ready to
                     use hand crafted components.{" "}
-                  </p>
+                  </p> */}
                   <div className="subscribe">
                     <form>
                       <Row>

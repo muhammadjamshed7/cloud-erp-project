@@ -53,13 +53,13 @@ const Dashboard1 = () => {
         </Col>
       </Row>
 
-      <Statistics />
+      {/* <Statistics /> */}
 
       <Row>
-        <Col lg={4}>
-          <RevenueChart />
+        <Col lg={0}>
+          {/* <RevenueChart /> */}
         </Col>
-        <Col lg={8}>
+        <Col lg={12}>
           <SalesAnalyticsChart />
         </Col>
       </Row>

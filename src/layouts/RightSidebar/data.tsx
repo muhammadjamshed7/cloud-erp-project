@@ -63,7 +63,7 @@ const tasks: TasksItemTypes[] = [
   },
   {
     id: 6,
-    task: "New Admin Design",
+    task: "Zameen Property",
     progress: 84,
     variant: "success",
     stage: "upcoming",
