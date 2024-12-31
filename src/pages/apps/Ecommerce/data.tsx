@@ -1,11 +1,11 @@
-import product1 from "../../../assets/images/products/product-1.png";
-import product2 from "../../../assets/images/products/product-2.png";
-import product3 from "../../../assets/images/products/product-3.png";
-import product4 from "../../../assets/images/products/product-4.png";
-import product5 from "../../../assets/images/products/product-5.png";
-import product6 from "../../../assets/images/products/product-6.png";
-import product7 from "../../../assets/images/products/product-7.png";
-import product8 from "../../../assets/images/products/product-8.png";
+import product1 from "../../../assets/images/products/home.jpg";
+import product2 from "../../../assets/images/products//home.jpg";
+import product3 from "../../../assets/images/products//home.jpg";
+import product4 from "../../../assets/images/products//home.jpg";
+import product5 from "../../../assets/images/products//home.jpg";
+import product6 from "../../../assets/images/products//home.jpg";
+import product7 from "../../../assets/images/products//home.jpg";
+import product8 from "../../../assets/images/products//home.jpg";
 
 export interface ProductItemTypes {
   id: number;
@@ -69,7 +69,7 @@ export interface CartItemTypes {
 const products: ProductItemTypes[] = [
   {
     id: 1,
-    name: "Men's sport T-shirt",
+    name: "Home 1",
     image: product1,
     rating: 3,
     price: 39,
@@ -78,7 +78,7 @@ const products: ProductItemTypes[] = [
   },
   {
     id: 2,
-    name: "Jack & Jones Men's T-shirt (Red)",
+    name: "Home 1",
     image: product2,
     rating: 2,
     price: 98,
@@ -87,7 +87,7 @@ const products: ProductItemTypes[] = [
   },
   {
     id: 3,
-    name: "Women's Marron Tshirt",
+    name: "Home 1",
     image: product3,
     rating: 5,
     price: 49,
@@ -96,7 +96,7 @@ const products: ProductItemTypes[] = [
   },
   {
     id: 4,
-    name: "Jack & Jones Men's T-shirt (Sky Blue)",
+    name: "Home 1",
     image: product4,
     rating: 3,
     price: 29,
@@ -105,7 +105,7 @@ const products: ProductItemTypes[] = [
   },
   {
     id: 5,
-    name: "Soft Green Tshirt",
+    name: "Home 1",
     image: product5,
     rating: 4,
     price: 49,
@@ -114,7 +114,7 @@ const products: ProductItemTypes[] = [
   },
   {
     id: 6,
-    name: "Jack & Jones Men's Jacket",
+    name: "Home 1",
     image: product6,
     rating: 5,
     price: 19,
@@ -123,7 +123,7 @@ const products: ProductItemTypes[] = [
   },
   {
     id: 7,
-    name: "Women's Soft Green Tshirt",
+    name: "Home 1",
     image: product7,
     rating: 5,
     price: 99,
@@ -132,7 +132,7 @@ const products: ProductItemTypes[] = [
   },
   {
     id: 8,
-    name: "Roadster Long Sleeves T-shirt",
+    name: "Home 1",
     image: product8,
     rating: 1,
     price: 29,

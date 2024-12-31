@@ -4,7 +4,7 @@ import { Row, Col, Card } from "react-bootstrap";
 // components
 import PageTitle from "../../components/PageTitle";
 
-import logoDark from "../../assets/images/logo-dark.png";
+import logoDark from "../../assets/images/logo.png";
 import logoLight from "../../assets/images/logo-light.png";
 
 interface Address {
@@ -95,9 +95,9 @@ const Invoice = () => {
                       </span>
                     </div>
                     <div className="logo logo-light">
-                      <span className="logo-lg">
+                      {/* <span className="logo-lg">
                         <img src={logoLight} alt="" height="22" />
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                 </div>

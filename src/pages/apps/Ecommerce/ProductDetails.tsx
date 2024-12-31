@@ -6,10 +6,10 @@ import { Row, Col, Card, ProgressBar, Tab, Nav } from "react-bootstrap";
 import PageTitle from "../../../components/PageTitle";
 import Rating from "../../../components/Rating";
 
-import productImg1 from "../../../assets/images/products/product-9.jpg";
-import productImg2 from "../../../assets/images/products/product-10.jpg";
-import productImg3 from "../../../assets/images/products/product-11.jpg";
-import productImg4 from "../../../assets/images/products/product-12.jpg";
+import productImg1 from "../../../assets/images/products/home.jpg";
+import productImg2 from "../../../assets/images/products/home.jpg";
+import productImg3 from "../../../assets/images/products/home.jpg";
+import productImg4 from "../../../assets/images/products/home.jpg";
 
 interface Product {
   brand: string;
@@ -123,8 +123,8 @@ const Stocks = () => {
 
 const ProductDetails = () => {
   const [product] = useState<Product>({
-    brand: "Jack & Jones",
-    name: "Jack & Jones Men's T-shirt (Blue)",
+    brand: "Zameen",
+    name: "Home 1 ",
     reviews: "36",
     status: "Instock",
     discount: 20,
